@@ -85,10 +85,10 @@ theme_mode: light
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: './assets/img/favicons/Onpoom_Logo.png'
+img_cdn: "/assets/img/logos/Onpoom_Logo.png"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: './assets/img/favicons/Onpoom_Logo.png'
+avatar: "/assets/img/logos/Onpoom_Logo.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
