@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: (주) 온품 S/W 개발팀
-  email: example@domain.com # change to your email address
+  email: onpoomcmsswteam@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -85,10 +85,10 @@ theme_mode: light
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "/assets/img/logos/Onpoom_Logo.png"
+img_cdn: '/assets/img/logos/onpoom_logo.png'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/logos/Onpoom_Logo.png"
+avatar: '/assets/img/logos/onpoom_logo.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
