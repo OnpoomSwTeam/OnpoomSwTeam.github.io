@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Onpoom <br> S/W Tech Blog # the main title
+title: S/W Tech Blog # the main title
 
-tagline: (주)온품 <br> CMS본부 S/W 연구개발팀 <br> 기술 개발 블로그 # it will display as the sub-title
+tagline: (주)온품 <br/> CMS본부 S/W 연구개발팀 <br/> 기술 개발 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   (주)온품 CMS본부 S/W 연구개발팀 기술 개발 블로그
@@ -88,7 +88,7 @@ theme_mode: light
 img_cdn: './assets/img/favicons/Onpoom_Logo.png'
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: './assets/img/favicons/Onpoom_Logo.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

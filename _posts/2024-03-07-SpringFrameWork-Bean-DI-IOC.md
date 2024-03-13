@@ -1,7 +1,7 @@
 ---
 title: SpringFrameWork의 IOC, DI, Bean
 author: 이대형 연구원
-date: 2024-03-07 12:00:00 +0800
+date: 2024-03-07
 categories: [Spring]
 tags: [Spring, IOC, DI, Bean]
 ---
