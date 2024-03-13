@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Onpoom <br> S/W Tech Blog # the main title
 
-tagline: (주)온품 CMS본부 <br> S/W 연구개발팀 기술 개발 블로그 # it will display as the sub-title
+tagline: (주)온품 <br> CMS본부 S/W 연구개발팀 <br> 기술 개발 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   (주)온품 CMS본부 S/W 연구개발팀 기술 개발 블로그
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: (주) 온품
+  name: (주) 온품 S/W 개발팀
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
