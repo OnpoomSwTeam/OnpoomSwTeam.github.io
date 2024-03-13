@@ -78,14 +78,14 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: [light | dark]
+theme_mode: light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Fonpoom.co.kr%2F&psig=AOvVaw1dP6nVEVvRZiYIpIdqKuib&ust=1710398531278000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPD9s5nR8IQDFQAAAAAdAAAAABAD'
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
