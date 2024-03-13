@@ -1,6 +1,6 @@
 ---
 title: SpringFrameWork의 IOC, DI, Bean
-author: Lee Dae-Hyung
+author: Lee-Dae-Hyung
 date: 2024-03-07
 categories: [Spring]
 tags: [Spring, IOC, DI, Bean]
