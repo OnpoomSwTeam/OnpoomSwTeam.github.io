@@ -1,5 +1,5 @@
 ---
-title: SpringFrameWork의 IOC, DI, Bean
+title: Spring - IOC, DI, Bean
 author: eogud6780
 date: 2024-03-07
 categories: [Spring]
