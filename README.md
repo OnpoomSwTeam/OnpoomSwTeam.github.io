@@ -36,7 +36,7 @@
 
 |            제안된 Topic            |        포스팅         |
 |:-------------------------------:|:------------------:|
-|     Java - 8 Version 의 특장점      | :heavy_check_mark                    |
+|     Java - 8 Version 의 특장점      | :heavy_check_mark:                    |
 |          Jira - 실무 도입기          |                    |
 |    Socket 통신의 기본 - TCP / UDP    |                    |
 |      Web 기본 - WS, WA, WAS       |                    |
