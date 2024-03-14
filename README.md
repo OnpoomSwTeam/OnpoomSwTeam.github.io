@@ -28,7 +28,7 @@
 
 * 중앙 저장소의 내용을 Pull 받아서 새로운 내용 확인
 * _posts 폴더 하위에 { **YYYY-MM-dd-제목.md** } 파일 생성 후 내용 작성
-  * Noti :exclamation: ) 파일 내용에 공백을 포함하여서는 안된다.
+  * Noti :exclamation: ) 파일 내용에 공백을 포함하면 안된다.
 * image 는 assets/img 폴더 하위에 폴더를 생성하여 image 삽입 후 상대경로로 작성 <br/>
   * Example :question: ) ```![](./assets/img/logos/onpoom_logo.png)```
 * { **YYYY-MM-dd-제목.md** } 파일 최상단에 취소선까지 모두 포함하여 필수로 들어가야 되는 내용
