@@ -13,17 +13,6 @@
 [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
 </div>
 
-## Topic
-
-|            제안된 Topic            |        포스팅         |
-|:-------------------------------:|:------------------:|
-|     Java - 8 Version 의 특장점      |                    |
-|          Jira - 실무 도입기          |                    |
-|    Socket 통신의 기본 - TCP / UDP    |                    |
-|      Web 기본 - WS, WA, WAS       |                    |
-| Git - Message Convention & Flow |                    |
-|     Spring - IOC, DI, Bean      | :heavy_check_mark: |
-
 ## Posting
 
 * 중앙 저장소의 내용을 Pull 받아서 새로운 내용 확인
@@ -42,6 +31,17 @@
   ---
   ```
 * 제안된 Topic 을 작성하였거나, 새로운 Topic을 작성하게 되면 README.md 파일의 Topic 을 업데이트 한다.
+
+## Topic
+
+|            제안된 Topic            |        포스팅         |
+|:-------------------------------:|:------------------:|
+|     Java - 8 Version 의 특장점      |                    |
+|          Jira - 실무 도입기          |                    |
+|    Socket 통신의 기본 - TCP / UDP    |                    |
+|      Web 기본 - WS, WA, WAS       |                    |
+| Git - Message Convention & Flow |                    |
+|     Spring - IOC, DI, Bean      | :heavy_check_mark: |
 
 ## License
 
