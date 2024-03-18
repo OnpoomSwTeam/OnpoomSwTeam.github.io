@@ -39,7 +39,7 @@
 |     Java - Collection에 대한 이해      |                     |
 |     Java - 입출력 및 바이트스트림      |                     |
 |     Java - 8 Version 의 특장점      | :heavy_check_mark:                    |
-|          Jira - 실무 도입기          |                    |
+|          Jira - 실무 도입기          | :heavy_check_mark: |
 |    Socket 통신의 기본 - TCP / UDP    |                    |
 |      Web 기본 - WS, WA, WAS       |                    |
 | Git - Message Convention & Flow |                    |
