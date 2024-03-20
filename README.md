@@ -41,7 +41,7 @@
 |     Java - 8 Version 의 특장점      | :heavy_check_mark: |
 |          Jira - 실무 도입기          | :heavy_check_mark: |
 |    Socket 통신의 기본 - TCP / UDP    |                    |
-|      Web 기본 - WS, WA, WAS       |                    |
+|      Web 기본 - WS, WA, WAS       | :heavy_check_mark: |
 | Git - Message Convention & Flow |                    |
 |     Spring - IOC, DI, Bean      | :heavy_check_mark: |
 
