@@ -1,6 +1,6 @@
 ---
 title: Web-기본-WS, WA, WAS
-author: Kang-Jeong-Woo
+author: zzangkbc1
 date: 2024-03-20
 categories: [Web, Spring]
 tags: [Web, Spring]
