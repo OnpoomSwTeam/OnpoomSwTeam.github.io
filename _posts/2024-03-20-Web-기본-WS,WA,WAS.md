@@ -1,5 +1,5 @@
 ---
-title: Jira - 실무 도입기
+title: Web-기본-WS, WA, WAS
 author: Kang-Jeong-Woo
 date: 2024-03-20
 categories: [Web, Spring]
