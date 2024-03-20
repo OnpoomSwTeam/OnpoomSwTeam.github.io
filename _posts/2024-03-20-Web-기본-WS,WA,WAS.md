@@ -32,7 +32,7 @@ Web Server 는 클라이언트가 웹 브라우저를 통해 요청한 정적 �
 * 로드 밸런싱을 통한 트래픽 관리
 
 ## Dynamic Pages
-![](https://velog.velcdn.com/images/jeong_woo/post/90f952e1-9880-436d-b58a-4ec3cf07855a/image.png)
+![](https://velog.velcdn.com/images/jeong_woo/post/dcdc1c35-cade-4068-b219-be9cf6fe8930/image.png)
 
 인자의 내용에 맞게 Dynamic 한 Contents 를 반환한다. <br>
 즉, 웹 서버에 의해 실행되는 프로그램(Web Application)을 통해서 만들어진 결과물(Servlet, JSON, etc...)을 반환한다.
