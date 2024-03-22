@@ -42,7 +42,7 @@
 |          Jira - 실무 도입기          | :heavy_check_mark: |
 |    Socket 통신의 기본 - TCP / UDP    |                    |
 |      Web 기본 - WS, WA, WAS       | :heavy_check_mark: |
-| Git - Message Convention & Flow |                    |
+| Git - Message Convention & Flow | :heavy_check_mark: |
 |     Spring - IOC, DI, Bean      | :heavy_check_mark: |
 
 ## License
