@@ -5,7 +5,7 @@ date: 2024-03-22
 categories: [ Git ]
 tags: [ Git, Flow, SCM ]
 image:
-  path: /assets/img/20240322-Git/thumbnail.jpg
+  path: /assets/img/20240322/thumbnail.jpg
   alt: Git.
 ---
 
@@ -88,7 +88,7 @@ Feat: 기능 추가
 
 ##### Github Desktop 적용 이미지
 
-![](assets/img/20240322-Git/기능추가01.jpg)
+![](assets/img/20240322/기능추가01.jpg)
 
 #### ○ 문서만 변경이 된 경우
 < Subject > - 제목 <br>
@@ -105,7 +105,7 @@ Docs: 문서 수정
 
 ##### < Github Desktop 적용 이미지 > 
 
-![](assets/img/20240322-Git/문서수정01.jpg)
+![](assets/img/20240322/문서수정01.jpg)
 
 # 🚩 Git Flow
 
@@ -120,7 +120,7 @@ Docs: 문서 수정
 ### ■ Git Flow 의 대표 사진
 Git Flow 전략을 적극적으로 사용 중인 '배달의 민족' 어플리케이션을 개발한 회사 '우아한 형제들' 회사의 Git Flow 활용 예시다.
 
-![](assets/img/20240322-Git/GitFlow-Ex01.jpg)
+![](assets/img/20240322/GitFlow-Ex01.jpg)
 
 #### ○ main branch ( = master branch )
 
@@ -156,7 +156,7 @@ Git Flow 전략을 적극적으로 사용 중인 '배달의 민족' 어플리케
 ### ■ Git Flow 의 활용 예시
 현재 우리 회사에서 간략하게 사용하고 있는 Git Flow 활용 예시이다.
 
-![](assets/img/20240322-Git/GitFlow-Ex02.jpg)
+![](assets/img/20240322/GitFlow-Ex02.jpg)
 
 # 🚩 마치며..
 Git - Message Convention & Flow 에 대해서 정리해보았다. <br>
