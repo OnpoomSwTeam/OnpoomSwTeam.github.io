@@ -4,6 +4,9 @@ author: eogud6780
 date: 2024-03-07
 categories: [Spring]
 tags: [Spring, IOC, DI, Bean]
+image:
+  path: /assets/img/20240307/thumbnail.png
+  alt: Spring Framework.
 ---
 
 # 😁DI(Dependency Injection)
