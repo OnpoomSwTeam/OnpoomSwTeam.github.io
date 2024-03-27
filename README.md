@@ -36,7 +36,7 @@
 
 |            제안된 Topic             |        포스팅         |
 |:--------------------------------:|:------------------:|
-| Spring - Sl4j / Logback & Log4j2 |                    |
+| Spring - Sl4j / Logback & Log4j2 |  :heavy_check_mark:       |
 |       Redis - Redis 에 대하여        |                    |
 |        Vue - VueQuery 란?         |                    |
 |    Vue - Vue.js 2 vs Vue.js 3    |                    |
