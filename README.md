@@ -38,7 +38,6 @@
 |:-------------------------------------:|:--------------:|:------------------:|
 |        SDM - TDD, BDD, DDD 란?         |                |                    |
 |  SDM - Software Design Pattern 의 종류   |                |                    |
-| Design - Software Design Pattern 의 종류 |                |                    |
 |   Spring - Sl4j / Logback & Log4j2    | Lee Dae-Hyung  | :heavy_check_mark: |
 |          Redis - Redis 에 대하여          |                |                    |
 |           Vue - VueQuery 란?           |                |                    |
