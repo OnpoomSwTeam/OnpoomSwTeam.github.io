@@ -36,7 +36,8 @@
 
 |               제안된 Topic               |       필자       |        포스팅         |
 |:-------------------------------------:|:--------------:|:------------------:|
-| SDM - Software Design Pattern 의 종류 |                |                    |
+|        SDM - TDD, BDD, DDD 란?         |                |                    |
+|  SDM - Software Design Pattern 의 종류   |                |                    |
 | Design - Software Design Pattern 의 종류 |                |                    |
 |   Spring - Sl4j / Logback & Log4j2    | Lee Dae-Hyung  | :heavy_check_mark: |
 |          Redis - Redis 에 대하여          |                |                    |
@@ -49,7 +50,10 @@
 |       Socket 통신의 기본 - TCP / UDP       |                |                    |
 |         Web 기본 - WS, WA, WAS          | Kang Jeong-Woo | :heavy_check_mark: |
 |    Git - Message Convention & Flow    | Moon Kyoung-Su | :heavy_check_mark: |
-|        Spring - IOC, DI, Bean         | Lee Dae-Hyung  | :heavy_check_mark: | 
+|        Spring - IOC, DI, Bean         | Lee Dae-Hyung  | :heavy_check_mark: |
+
+## Word
+* SDM ( Software Development Methodology ) : 소프트웨어 개발 방법론
 
 ## License
 
