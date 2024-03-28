@@ -2,7 +2,7 @@
 title:  Spring - SlF4j / Logback & Log4j2
 author: eogud6780
 date: 2024-03-27 
-categories: [Web] 
+categories: [Web, Spring] 
 tags: [Spring]
 image:
   path: /assets/img/20240327/log.png 
@@ -13,14 +13,14 @@ image:
 > 로그는 소프트웨어 이벤트를 시스템의 상태 및 동작 정보를 시간 경과에따라 기록하는 것이다.
 소프트웨어 개발 과정 혹은 개발 후 동작상태를 파악하여 문제 진단 및 해결에 도움을 준다.
 운영과 관리에 도움을 주는 좋은 데이터가 될 수있다.
-로그를 기록하는 행위를 로깅(logging)이라고 하며 JAVA에서는 다양한 로깅 라이브러리를 지원한다.
+로그를 기록하는 행위를 로깅(logging)이라고 하며 JAVA 에서는 다양한 로깅 라이브러리를 지원한다.
 하지만 각각 로깅 라이브러리의 내부동작을 이해하지 못하면 성능상 이슈가 발생할 수 있기때문에
 내부동작을 이해하는것이 중요하다.
 
-#### 디버깅 이나 System.out.println이랑 비교했을때 로깅 라이브러리를 사용할시 장점
-- 상황별 Log Level을 지정해 Level별로 로깅이 가능하다
+#### 디버깅 이나 System.out.println 이랑 비교했을때 로깅 라이브러리를 사용할시 장점
+- 상황별 Log Level 을 지정해 Level 별로 로깅이 가능하다
 - 프로그램 실행에 대한 흐름과 에러 확인가능
-- sysout에 비해 파일,클라우드,DB 등 출력 위치 및 다양한 출력 형식 지원
+- sysout 에 비해 파일,클라우드,DB 등 출력 위치 및 다양한 출력 형식 지원
 - 모듈,파일,메소드,클래스별로 유연하게 메세지 출력 가능
 
 #### 로깅 라이브러리종류
@@ -43,13 +43,13 @@ image:
 ---
    
 #### 🔥 System.out.println()을 로깅에 사용하면 안좋은 이유가 무엇일까? 
- - sysout이 내부적으로 사용하는 wirte()와 newLine()이 동기화 메서드이다
- - Blocking I/O이다  ( 해당 I/O가 발생하는 작업시간동안 cpu가 놀기되기 때문)
+ - sysout 이 내부적으로 사용하는 wirte()와 newLine()이 동기화 메서드이다
+ - Blocking I/O이다  ( 해당 I/O가 발생하는 작업시간동안 cpu 가 놀기되기 때문)
  - 즉 성능상 좋지 않다.
  
 
 ## 👀SLF4J ( Simple Logger Facade For Java)
-> SLF4J는 java.util.logging, logback 및 log4j와 같은 다양한 로깅 프레임 워크에 대한 추상화(인터페이스) 역할을 하는 라이브러리입니다. logger의 추상체로써, 인터페이스 이므로 SLF4j 인터페이스를 사용해서 로깅하게 되면 구현체만 갈아 끼우면 logback이나 log4j등으로 마이그레이션 할 수 있습니다. 구현체로는 logback, log4j2 등이 있습니다.
+> SLF4J는 java.util.logging, logback 및 log4j와 같은 다양한 로깅 프레임 워크에 대한 추상화(인터페이스) 역할을 하는 라이브러리입니다. logger 의 추상체로써, 인터페이스 이므로 SLF4j 인터페이스를 사용해서 로깅하게 되면 구현체만 갈아 끼우면 logback이나 log4j등으로 마이그레이션 할 수 있습니다. 구현체로는 logback, log4j2 등이 있습니다.
 
 ![](https://velog.velcdn.com/images/eogud2/post/f5c2da38-c5e8-44d0-b885-553f381a1341/image.png)
 
@@ -58,18 +58,18 @@ image:
 SLF4J는 세가지의 구성요소를 갖는다.
 - SLF4J API
 	- SLF4J를 사용하기 위한 인터페이스를 제공
-   	- slf4j-api-{version}.jar를 통해 사용
+   	- slf4j-api-{version}.jar 를 통해 사용
  	- 반드시 하나의 바인딩만을 사용해야한다 ( 아니면 에러남 )
     <br>
 - SLF4J 바인딩
-	- SLF4J 인터페이스를 로깅 구현체(logback 또는 log4j)와 연결하는 어댑터 역할
+	- SLF4J 인터페이스를 로깅 구현체 ( logback 또는 log4j ) 와 연결하는 어댑터 역할
     <br>
 - SLF4J Bridging Modules
-	- 다른 로깅 API로 Logger 호출을 할 때, SLF4J 인터페이스로 연결(redirect)하여 SLF4J API가 대신 Logger를 처리할 수 있도록 하는 어댑터 역할의 라이브러리
+	- 다른 로깅 API 로 Logger 호출을 할 때, SLF4J 인터페이스로 연결 ( redirect ) 하여 SLF4J API 가 대신 Logger 를 처리할 수 있도록 하는 어댑터 역할의 라이브러리
   	- 다른 로깅 API ==> Bridge(redirect) ==> SLF4J API
     
 ### 📍LogBack 
-- logback이란 log4j 이후에 나왔으며 log4j 보다 향상되고 가장 널리 사용되고 있는 Java 로깅 라이브러리 입니다.
+- logback 이란 log4j 이후에 나왔으며 log4j 보다 향상되고 가장 널리 사용되고 있는 Java 로깅 라이브러리 입니다.
 - slf4j의 구현체로써 스프링부트의 기본 log로 사용되고 있으며 spring-boot-starter-web 안에 spring-boot-starter-logging의 logback이 기본적으로 내장되어있어 따로 추가해줄 필요없다.
 - Automatic Reloading 기능을 제공하여 따로 재시작없이 설정 변경후 사용 가능하다
 
@@ -133,7 +133,7 @@ Configuration:
 ### 🙄무엇을 사용해야할까?
 - 로깅해야 할 양이 많고 성능이 중요하다면 Log4j2를 사용하는 것이 좋다
 - Logback,Log4j2 둘 다 SLF4j를 구현하고 있기 때문에 교체하기에 편리하다 
- -> ( 내부적인 코드를 변경하지않고 dependency만 교체해주면되기 때문)
+ -> ( 내부적인 코드를 변경하지않고 dependency 만 교체해주면되기 때문)
 - 비동기 로거는 순서가 중요하지 않고 방대한 로그를 작성해야 할때 사용하면 좋을것같다.
 - 동기 로거는 코드의 동작 순서가 중요할때 ( 디버깅용 ) 사용하면 좋을것같다.
 
