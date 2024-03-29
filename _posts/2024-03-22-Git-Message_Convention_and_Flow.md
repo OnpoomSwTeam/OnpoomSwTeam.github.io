@@ -20,12 +20,14 @@ image:
 ### ■ Git Message Convention 정의
 
 > 프로젝트의 흐름 및 변경점을 빠르게 파악하기 위하여 Commit Message 를 Udacity Style Guide 에 맞춰서 작성하는 전략
+{: .prompt-info }
 
 ### ■ Udacity Style Guide 란?
 
 > 미국의 영리 교육 기관으로 온라인 강의를 제공하는 기관인 Udacity 가 Git Commit Message 의 구조를 Subject ( 제목 ), Body ( 내용 ), Footer ( 참조 ) 로
 > 정의하고 <br>
 > 구조에 들어가는 내용들을 어떻게 작성하는지 설명해 놓은 것이 Udacity Style Guide 이다.
+{: .prompt-info }
 
 ## 📝 Git Message Convention 구조
 
