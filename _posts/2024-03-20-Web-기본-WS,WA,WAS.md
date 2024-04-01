@@ -4,6 +4,9 @@ author: zzangkbc1
 date: 2024-03-20
 categories: [Web, Spring]
 tags: [Web, Spring]
+image:
+  path: /assets/img/jw/was.png
+  alt: WAS
 ---
 
 이번 포스팅에서는 웹 개발의 기본이 되는 "WS(Web Server), WA(Web Application), WAS(Web Application Server)"에 대해 자세히 알아보겠다. <br>

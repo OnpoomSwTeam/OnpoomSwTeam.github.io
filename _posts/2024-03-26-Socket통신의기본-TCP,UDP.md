@@ -1,3 +1,14 @@
+---
+title: Socket 통신의 기본 - TCP / UDP
+author: zzangkbc1
+date: 2024-03-26
+categories: [Network]
+tags: [Network, TCP, UDP]
+image:
+  path: /assets/img/jw/socket.png
+  alt: socket
+---
+
 # 소켓통신
 ## 소켓(SOCKET)이란?
 소켓(Socket)은 프로세스가 드넓은 네트워크 세계로 데이터를 내보내거나 혹은 그 세계로부터 데이터를 받기 위한 실제적인 "창구" 역할을 한다.

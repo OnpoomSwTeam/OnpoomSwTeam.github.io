@@ -1,3 +1,13 @@
+---
+title: SDM - TDD, BDD, DDD 란?
+author: zzangkbc1
+date: 2024-04-01
+categories: [SDM]
+tags: [SDM, DDD, TDD, BDD]
+image:
+  path: /assets/img/jw/ddd.jpg
+  alt: SDM
+---
 ![](https://velog.velcdn.com/images/jeong_woo/post/f1fb2f63-1fd9-4371-928f-ecb8de35dffa/image.jpg)
 
 # 요즘 트렌드
