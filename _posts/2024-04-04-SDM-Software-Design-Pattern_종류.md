@@ -4,6 +4,8 @@ author: alswo471
 date: 2024-04-04
 categories: [SDM]
 tags: [Design Pattern]
+image:
+  path: /assets/img/design-pattern/img_main.png
 ---
 
 # Design Pattern
