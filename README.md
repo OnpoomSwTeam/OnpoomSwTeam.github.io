@@ -38,7 +38,7 @@
 |             제안된 Topic              |      필자      |       포스팅       |
 | :-----------------------------------: | :------------: | :----------------: |
 |        SDM - TDD, BDD, DDD 란?        | Kang Jeong-Woo | :heavy_check_mark: |
-| SDM - Software Design Pattern 의 종류 |                | :heavy_check_mark: |
+| SDM - Software Design Pattern 의 종류 |   Ji Min-Jae   | :heavy_check_mark: |
 |   Spring - Sl4j / Logback & Log4j2    | Lee Dae-Hyung  | :heavy_check_mark: |
 |        Redis - Redis 에 대하여        | Moon Kyoung-Su | :heavy_check_mark: |
 |          Vue - VueQuery 란?           |                |                    |
