@@ -35,22 +35,23 @@
 
 ## Topic
 
-|             제안된 Topic              |      필자      |       포스팅       |
-| :-----------------------------------: | :------------: | :----------------: |
-|        SDM - TDD, BDD, DDD 란?        | Kang Jeong-Woo | :heavy_check_mark: |
-| SDM - Software Design Pattern 의 종류 |   Ji Min-Jae   | :heavy_check_mark: |
-|   Spring - Sl4j / Logback & Log4j2    | Lee Dae-Hyung  | :heavy_check_mark: |
-|        Redis - Redis 에 대하여        | Moon Kyoung-Su | :heavy_check_mark: |
-|          Vue - VueQuery 란?           |                |                    |
-|      Vue - Vue.js 2 vs Vue.js 3       |                |                    |
-|    Java - Collection 에 대한 이해     |                |                    |
-|     Java - 입출력 및 바이트스트림     | Lee Dae-Hyung  | :heavy_check_mark: |
-|      Java - 8 Version 의 특장점       | Lee Dae-Hyung  | :heavy_check_mark: |
-|          Jira - 실무 도입기           |   Ji Min-Jae   | :heavy_check_mark: |
-|    Socket 통신의 기본 - TCP / UDP     | Kang Jeong-Woo | :heavy_check_mark: |
-|        Web 기본 - WS, WA, WAS         | Kang Jeong-Woo | :heavy_check_mark: |
-|    Git - Message Convention & Flow    | Moon Kyoung-Su | :heavy_check_mark: |
-|        Spring - IOC, DI, Bean         | Lee Dae-Hyung  | :heavy_check_mark: |
+|                제안된 Topic                 |       필자       |        포스팅         |
+|:----------------------------------------:|:--------------:|:------------------:|
+|            Vue - VueQuery 란?             |                |                    |
+|        Vue - Vue.js 2 vs Vue.js 3        |                |                    |
+|        Java - Collection 에 대한 이해         |                |                    |
+| Redis - Spring 과 Redis 그리고 Message Queue | Moon Kyoung-Su | :heavy_check_mark: |
+|          SDM - TDD, BDD, DDD 란?          | Kang Jeong-Woo | :heavy_check_mark: |
+|    SDM - Software Design Pattern 의 종류    |   Ji Min-Jae   | :heavy_check_mark: |
+|     Spring - Sl4j / Logback & Log4j2     | Lee Dae-Hyung  | :heavy_check_mark: |
+|           Redis - Redis 에 대하여            | Moon Kyoung-Su | :heavy_check_mark: |
+|           Java - 입출력 및 바이트스트림            | Lee Dae-Hyung  | :heavy_check_mark: |
+|          Java - 8 Version 의 특장점          | Lee Dae-Hyung  | :heavy_check_mark: |
+|              Jira - 실무 도입기               |   Ji Min-Jae   | :heavy_check_mark: |
+|        Socket 통신의 기본 - TCP / UDP         | Kang Jeong-Woo | :heavy_check_mark: |
+|           Web 기본 - WS, WA, WAS           | Kang Jeong-Woo | :heavy_check_mark: |
+|     Git - Message Convention & Flow      | Moon Kyoung-Su | :heavy_check_mark: |
+|          Spring - IOC, DI, Bean          | Lee Dae-Hyung  | :heavy_check_mark: |
 
 ## Word
 
@@ -61,5 +62,7 @@
 This project is published under [MIT License][license].
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+
 [ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+
 [license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
