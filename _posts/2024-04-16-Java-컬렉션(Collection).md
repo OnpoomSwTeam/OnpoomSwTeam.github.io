@@ -41,11 +41,13 @@ image:
 
 ### 특징
 
-- 순서 유지: List에 추가된 항목은 순서대로 저장되며, 인덱스를 사용하여 항목에 접근할 수 있다. 이 특성은 배열과 유사하게 동작.
+- 순서 유지: List에 추가된 항목은 순서대로 저장되며, 인덱스를 사용하여 항목에 접근할 수 있다. 이 특성은 배열과 유사하게 동작한다.
 
-- 인덱스 기반 접근: List는 0부터 시작하는 인덱스를 사용하여 항목을 조회, 추가, 수정, 삭제할 수 있습니다. get(int index), set(int index, E element), add(int index, E element), remove(int index) 등의 메서드를 사용
+- 인덱스 기반 접근: List는 0부터 시작하는 인덱스를 사용하여 항목을 조회, 추가, 수정, 삭제할 수 있다. get(int index), set(int index, E element), add(int index, E element), remove(int index) 등의 메서드를 사용한다.
 
 - 중복 허용: List는 중복된 항목을 허용. 즉, 동일한 객체나 값이 여러 번 저장될 수 있다.
+
+<br>
 
 ### List 인터페이스의 주요 메서드
 
