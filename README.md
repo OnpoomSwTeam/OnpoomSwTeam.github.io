@@ -40,6 +40,7 @@
 |            Vue - VueQuery 란?             |                |                    |
 |        Vue - Vue.js 2 vs Vue.js 3        |                |                    |
 |        Java - Collection 에 대한 이해         |                |                    |
+|             RPC - gRPC에 대하여              | Moon Kyoung-Su | :heavy_check_mark: |
 | Redis - Spring 과 Redis 그리고 Message Queue | Moon Kyoung-Su | :heavy_check_mark: |
 |          SDM - TDD, BDD, DDD 란?          | Kang Jeong-Woo | :heavy_check_mark: |
 |    SDM - Software Design Pattern 의 종류    |   Ji Min-Jae   | :heavy_check_mark: |
